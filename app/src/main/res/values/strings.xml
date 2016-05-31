@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sunshine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sunshine_title">Sunshine</string>
+    <string name="share_title">Share</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="action_location" translatable="false">Map Location</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Location</string>
+    <string name="pref_location_default" translatable="false">Brasilia</string>
+    <string name="pref_location_key" translatable="false">location</string>
+
+
+    <string name="pref_scale_key" translatable="false">temperat</string>
+    <string name="temp_display_title">Scale</string>
+    <string name="pref_scale_default">metric</string>
+
+    <string-array name="metrics">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+
+    <string-array name="metricsAlias">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+</resources>
