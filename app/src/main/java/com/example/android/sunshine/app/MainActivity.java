@@ -19,6 +19,7 @@ public class MainActivity extends ActionBarActivity {
     private final String LOG_TAG = MainActivity.class.getSimpleName();
     private ShareActionProvider mShareActionProvider;
 
+    // It is the first to be called before app starts 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,6 +67,8 @@ public class MainActivity extends ActionBarActivity {
         Log.v(LOG_TAG, "onStart called");
     }
 
+    // First to be called after another app goes into foreground
+    // Or this one is about to be terminated 
     @Override
     protected void onPause() {
         super.onPause();
